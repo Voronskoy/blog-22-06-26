@@ -1,27 +1,26 @@
-@use './colors' as *;
-
-%flex-column{
+@use "colors" as *;
+%flex-column {
   display: flex;
   flex-direction: column;
 }
 
-%flex-center{
+%flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-%limit-width{
+%limit-width {
   width: 100%;
   max-width: 1200px;
   margin: auto;
 }
 
-%btn-read-more{
+%btn-read-more {
   background-color: $yellow;
   border: none;
   padding: 1em 1.5em;
-  &::after{
-    content: ' >';
+  &::after {
+    content: " >";
   }
 }
